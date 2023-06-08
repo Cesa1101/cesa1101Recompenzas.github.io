@@ -1,0 +1,50 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cartel {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .cartel__titulo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cartel__imagen {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .cartel__estado {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .cartel__personaje-nombre {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cartel__recompensa {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .texto__detalle {
+    margin-bottom: 10px;
+  }
+  
+  .texto__marina {
+    font-weight: bold;
+    color: navy;
+  }
+  
